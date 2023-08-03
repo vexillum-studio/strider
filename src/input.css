@@ -1,0 +1,31 @@
+@layer base {
+    @font-face {
+        font-family: 'RobotoCondensed';
+        src: url(/src/assets/fonts/RobotoCondensed.ttf) format('truetype');
+    }
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(120, 4, 4);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 0, 0);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
